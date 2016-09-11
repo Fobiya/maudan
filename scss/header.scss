@@ -1,0 +1,716 @@
+@import "bourbon";
+
+
+/*CSS FONTS Web~Oman*/
+
+$RL:'Roboto-Light';
+$RB:'Roboto-Bold';
+$RR:'Roboto-Regular';
+
+$BOLD:'BebasNeue Bold';
+$BOOK:'BebasNeue Book';
+
+
+/*CSS FONTS END Web~Oman*/
+
+
+
+
+
+a,button{
+  cursor: pointer;
+  transition: all 0.5s!important;
+}
+a:hover,button:hover{
+  transition: all 0.5s!important;
+}
+div, a {
+  position: relative;
+  display: block
+}
+
+
+
+
+
+
+/* независимые элименты STYLE Web~Oman --------- */
+
+
+.red_button{
+    
+     font-family: $RB;
+    font-size: 14px;
+    max-width:343px;
+    background-color: #fe4040;
+    height: 50px;
+    color: #ffffff;
+   
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: -8px 13px 29px 0.00px rgba(0, 0, 0, 0.23);
+        line-height: 51px;
+ 
+        letter-spacing: .12em;
+    
+    &:hover{
+           background-color: #40A663;
+        
+    }
+    
+   
+
+    
+}
+
+
+/* END независимые элименты STYLE Web~Oman ------ */
+
+
+
+
+/*CSS style Web~Oman*/
+
+
+header{
+    
+    background: url(../images/header.png) no-repeat top center;
+    
+
+    height: 768px;
+    
+    .heading{
+        text-align: right;
+        color: #9a9596;
+        font-size: 18px;
+        font-family: $RL;
+        text-transform: uppercase;
+            letter-spacing: 0.02002em;
+        margin-top: 48px;
+        margin-bottom: 70px;
+        
+        span{
+            color: #fe4040;
+            font-family: $RB;
+            
+            
+        }
+        
+        
+        
+       
+    }
+    
+    .n2{
+            
+            display: none;
+        }
+    
+    h1{
+        text-align: right;
+        font-size: 5em;
+        color: #47433c;
+           font-family: $BOLD;
+        text-transform: uppercase;
+            line-height: .9em;
+            margin-bottom: 25px;
+        span{
+            position: relative;
+            display: inline-block;
+            font-size: 0.9em;
+                 .grin{
+                        
+                     display: inline-block;
+                color: #40a663;
+                         font-size: 1em !important;  
+            }
+            
+        }
+       
+    }
+    
+    .tagline{
+        color: #4e525a;
+        font-family:  $RB;
+        text-align: right;
+           font-size: 1.5em;
+    line-height: 1.3em;
+        
+        margin-bottom: 39px;
+        
+      
+    }
+    
+    .desc{
+          font-family:  $RL;
+        
+        font-size: 18px;
+        color: #4e525a;
+        text-align: right;
+        margin-bottom: 50px;
+        
+    }
+    
+    
+    .box__block{
+        width: 100%;
+           text-align: right;
+        margin-bottom: 15px;
+        
+        .cls-2 {
+    fill: #47433c;
+}
+        
+        &:after {
+            content: "";
+            width: 44px;
+            height: 87px;
+            position: absolute;
+            display: inline-block;
+
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAABXCAMAAABIv1cxAAACFlBMVEUAAABOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpNUVlOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlr///9SBvSMAAAAsHRSTlMAEBceHSQpLDEGNT5GGk9VKzBhSgJpV3o7R4EVCn9MU4CdFg+goqMJrbYTJ7AEUYuWSMI8oUPJiGAUz5JYIcfAKmXguzl4fTjB7wXOLl55h6dExd4g7v388OPIrpHTZgcOzIxr8Z9BmOH6cOwMI3yx61AR5PkvanTp2fYcZChF7YPEJo0InGNs3+dSygNWGfV7dbh28v432tA9lNToJc33ut2e2HEtAaT7c6WZ1UmFv4yNv6IAAAIpSURBVHjaldf7N1RRFAfwO8atuVITM+SREjWmQpES08tMRZlBqXtlTKKXqbx6TiQ9hF6ElEjvd9H3T2zR8uO9a3/3T+eHz9prn3vOWXtfRVFscfZ4ddlyh0NT5KElrEh0KESsXOVczfikZJeb4PaUVIbHr0ljiknPyCT02qx1TPL12Rqh1Q05hM7dqDKFb0oitOZhdJ5XZerevIXQW/MLCF24TSFiexHzAYuZw9nhYQop2UnguF1uQpfuJnBZOZPat4fAe/cpROw/QOAK5tBtfmaLgYMEPnSYwJVVBC44cpTQ1UHm6oUIXFNL4FAdgY8dJ3CwnsAnTjIPQCewDUwZBtMgG5hPd4rAyY0EzgoT2NNE4MhpuW02iH6epp8h9tdClFzcKrc5hkuOz55rluOW88QzwQU5vtjmFlt79BKR+PIVsW2PdsgTd3bJE3ejQmyvXiMarPf6DbG9iVvy+SEaEBdhj7WVSW3m7Z4EqbVV64VS2xvBHant8+vi07jbH02VNsl7ekO60Kr3EXlgMaI+7HIurQc6evAoz5S6B2PA0NL4OYzHTyx6/lOgvntx+ex5OQxfrikdKQFGXwwszntjfmDc/JppEy+But6F7jU4rmPS+8q8AtdrYOqN1uecngHwtnXWnM6+A943fvhoAEDsU5HlGN6P/2F8Dn/5+k2xju8/AECf8TlHJL8ilT/DMSzE8K+UoORRtId+/5kEgCrpRZ+b/zsasBL/ABjIgIzBjaZsAAAAAElFTkSuQmCC') no-repeat;
+            z-index: 1;
+          
+    margin-right: -58px;
+            right: 1px;
+            top: 20px;
+        }
+        .box__info{
+            margin-bottom: 20px;
+margin-left: 15px;
+            width: 200px;
+               display: inline-block;
+            .box__img{
+                   width: 35px;
+
+              display: inline-block;
+                float: left;
+            }
+
+            P{   
+                  margin-top: 10px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+                text-align: left;
+                 font-family:  $RL;
+                color: #4e525a;
+               
+            }
+        }
+        
+       
+        
+        
+    }
+
+    
+    .red_button{
+        
+        margin-left: auto;
+        margin-bottom: 15px;
+        
+        svg{
+             width: 30px;
+        position: relative;
+        margin-bottom: -7px;
+        }
+    }
+    
+     .text{
+            color: #9a9596;
+            font-size: 14px;
+            text-align: right;
+                   font-family: $RL;
+            
+        }
+ 
+}
+
+
+
+
+
+/*CSS style Web~Oman*/
+
+
+
+
+
+
+
+
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+
+@media only screen and (max-width: 1200px) and (min-width: 993px){
+    
+
+
+header{
+
+
+       .box__block{
+           @media only screen and (max-width: 1120px) and (min-width: 993px){
+                &:after {
+
+                    display: none;
+
+           }
+
+
+        }
+
+    }
+
+}
+
+
+
+
+
+}/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+
+
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+
+
+
+
+header{
+    height:auto;
+
+
+   background: url(../images/header.png) no-repeat -600px top ;
+
+       .box__block{
+           @media only screen and (max-width: 890px) and (min-width: 769px){
+                &:after {
+
+                    display: none;
+
+           }
+
+
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+}/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+
+
+
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+
+
+
+
+
+header{
+    
+    background: #EDE8DE;
+height:auto;
+    
+    .heading{
+
+        text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 1.2em;
+        
+        span{
+          
+     
+            
+        }
+        
+       
+    }
+    
+     .n1{
+            
+            display: none;
+        }
+        
+         .n2{
+
+            display: block;
+             
+             br{
+                 display: block;
+             }
+        }
+    
+    h1{
+        text-align: center;
+          margin-bottom: 80px;
+        span{
+          
+                  font-size: 0.75em;  
+                 .grin{
+                          font-size: 1em !important;  
+            
+            }
+            
+        }
+       
+    }
+    
+    .tagline{
+      
+        text-align: center;
+        
+        br{
+            display: block;
+        }
+     
+    }
+    
+    .desc{
+    
+         text-align: center;
+    margin: 0 auto 40px auto;
+    width: 100%;
+    max-width: 400px;
+        
+      display: block;
+    position: relative;
+        
+         &:after {
+            content: "";
+            width: 44px;
+            height: 87px;
+            position: absolute;
+            display: inline-block;
+
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAABXCAMAAABIv1cxAAACFlBMVEUAAABOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpNUVlOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlr///9SBvSMAAAAsHRSTlMAEBceHSQpLDEGNT5GGk9VKzBhSgJpV3o7R4EVCn9MU4CdFg+goqMJrbYTJ7AEUYuWSMI8oUPJiGAUz5JYIcfAKmXguzl4fTjB7wXOLl55h6dExd4g7v388OPIrpHTZgcOzIxr8Z9BmOH6cOwMI3yx61AR5PkvanTp2fYcZChF7YPEJo0InGNs3+dSygNWGfV7dbh28v432tA9lNToJc33ut2e2HEtAaT7c6WZ1UmFv4yNv6IAAAIpSURBVHjaldf7N1RRFAfwO8atuVITM+SREjWmQpES08tMRZlBqXtlTKKXqbx6TiQ9hF6ElEjvd9H3T2zR8uO9a3/3T+eHz9prn3vOWXtfRVFscfZ4ddlyh0NT5KElrEh0KESsXOVczfikZJeb4PaUVIbHr0ljiknPyCT02qx1TPL12Rqh1Q05hM7dqDKFb0oitOZhdJ5XZerevIXQW/MLCF24TSFiexHzAYuZw9nhYQop2UnguF1uQpfuJnBZOZPat4fAe/cpROw/QOAK5tBtfmaLgYMEPnSYwJVVBC44cpTQ1UHm6oUIXFNL4FAdgY8dJ3CwnsAnTjIPQCewDUwZBtMgG5hPd4rAyY0EzgoT2NNE4MhpuW02iH6epp8h9tdClFzcKrc5hkuOz55rluOW88QzwQU5vtjmFlt79BKR+PIVsW2PdsgTd3bJE3ejQmyvXiMarPf6DbG9iVvy+SEaEBdhj7WVSW3m7Z4EqbVV64VS2xvBHant8+vi07jbH02VNsl7ekO60Kr3EXlgMaI+7HIurQc6evAoz5S6B2PA0NL4OYzHTyx6/lOgvntx+ex5OQxfrikdKQFGXwwszntjfmDc/JppEy+But6F7jU4rmPS+8q8AtdrYOqN1uecngHwtnXWnM6+A943fvhoAEDsU5HlGN6P/2F8Dn/5+k2xju8/AECf8TlHJL8ilT/DMSzE8K+UoORRtId+/5kEgCrpRZ+b/zsasBL/ABjIgIzBjaZsAAAAAElFTkSuQmCC') no-repeat;
+            z-index: 1;
+              margin-right: -45px;
+            right: 1px;
+            top: 20px;
+        }
+        
+    }
+    
+    
+    .box__block{
+        display: none;
+        
+    }
+
+    
+    .red_button{
+        
+        margin-left: auto;
+         margin-right: auto;
+        margin-bottom: 40px;
+        
+        svg{
+             width: 30px;
+        position: relative;
+        margin-bottom: -7px;
+        }
+    }
+    
+     .text{
+           
+            text-align: center;
+            
+            
+        }
+ 
+}
+
+
+
+
+
+
+
+
+
+}/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+
+
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+
+
+
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+
+
+
+
+
+
+   
+header{
+    
+    background: #EDE8DE;
+height:auto;
+  
+
+    
+    .heading{
+
+        text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    line-height: 1.2em;
+        
+        span{
+                    
+
+     
+            
+        }
+        
+       
+    }
+    
+     .n1{
+            
+            display: none;
+        }
+        
+         .n2{
+
+            display: block;
+             
+             br{
+                 display: block;
+             }
+        }
+    
+    h1{
+        text-align: center;
+          margin-bottom: 35px;
+        font-size: 3.5em;
+        span{
+              font-size: 0.7em;
+              
+                 .grin{
+                        
+            
+            }
+            
+        }
+       
+    }
+    
+    .tagline{
+      
+        text-align: center;
+        
+        font-size: 1.3em;
+        
+        br{
+         
+        }
+     
+    }
+    
+    .desc{
+        text-align: center;
+    margin: 0 auto 35px auto;
+    width: 100%;
+    max-width: 400px;
+        
+    }
+    
+    
+    .box__block{
+        display: none;
+        
+    }
+
+    
+    .red_button{
+        
+        margin-left: auto;
+         margin-right: auto;
+        margin-bottom: 35px;
+        
+        svg{
+             width: 30px;
+        position: relative;
+        margin-bottom: -7px;
+        }
+    }
+    
+     .text{
+           
+            text-align: center;
+            
+            
+        }
+ 
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+}/*CSS END style (max-width: 540px) and (min-width: 321px) END Web~Oman  */
+
+
+
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+
+
+
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+
+
+
+
+
+
+header{
+    
+    background: #EDE8DE;
+height:auto;
+  
+
+    
+    .heading{
+
+        text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    line-height: 1.3em;
+        
+        span{
+          
+     
+            
+        }
+        
+       
+    }
+    
+     .n1{
+            
+            display: none;
+        }
+        
+         .n2{
+
+            display: block;
+             
+             font-size: .9em;
+             br{
+                 display: block !important;
+             }
+        }
+    
+    h1{
+        text-align: center;
+          margin-bottom: 25px;
+        font-size: 3em;
+        span{
+          
+                  font-size: 0.65em;  
+                 .grin{
+                        
+            
+            }
+            
+        }
+       
+    }
+    
+    .tagline{
+        font-size: 1.1em;
+        margin-bottom: 30px;
+      
+        text-align: center;
+        
+        br{
+            display: block;
+        }
+     
+    }
+    
+    .desc{
+        text-align: center;
+    margin: 0 auto 25px auto;
+    width: 100%;
+    max-width: 400px;
+        
+    }
+    
+    
+    .box__block{
+        display: none;
+        
+    }
+
+    
+    .red_button{
+        
+        margin-left: auto;
+         margin-right: auto;
+        margin-bottom: 30px;
+        
+        font-size: .65em;
+        
+        svg{
+             width: 30px;
+        position: relative;
+        margin-bottom: -7px;
+        }
+    }
+    
+     .text{
+           
+            text-align: center;
+            
+            
+        }
+ 
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+
+}/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */

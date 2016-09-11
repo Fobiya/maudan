@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/*CSS FONTS Web~Oman*/
+/*CSS FONTS END Web~Oman*/
+/* независимые элименты STYLE Web~Oman --------- */
+.red_button {
+  font-family: "Roboto-Bold";
+  font-size: 14px;
+  max-width: 343px;
+  background-color: #fe4040;
+  height: 50px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-box-shadow: -8px 13px 29px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: -8px 13px 29px 0px rgba(0, 0, 0, 0.23);
+  line-height: 51px;
+  letter-spacing: .12em; }
+  .red_button:hover {
+    background-color: #40A663; }
+
+/* END независимые элименты STYLE Web~Oman ------ */
+/*CSS style Web~Oman*/
+header {
+  background: url(../images/header__and.png) no-repeat top center;
+  height: 536px; }
+  header .lead {
+    color: #4e525a;
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    margin-top: 58px;
+    padding-left: 15%; }
+  header h1 {
+    color: #47433c;
+    font-family: "BebasNeue Bold";
+    font-size: 5em;
+    margin-top: -10px;
+    padding-left: 15%; }
+  header .text {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #4e525a;
+    margin-top: 36px;
+    font-family: "Roboto-Regular"; }
+    header .text span {
+      font-family: "Roboto-Bold"; }
+  header .desc {
+    text-align: center;
+    font-family: "Roboto-Light";
+    color: #4e525a;
+    font-size: 1.13em;
+    line-height: 1.25em;
+    margin-top: 20px;
+    position: relative; }
+    header .desc:after {
+      content: "";
+      width: 80px;
+      height: 87px;
+      position: absolute;
+      display: inline-block;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABXCAMAAACURiMGAAACFlBMVEUAAAD///9OUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpNUVlOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUloyaN+UAAAAsXRSTlMAAAECAwQFBgcICQoMDg8QERMUFRYXGRocHR4gISMkJSYnKCkqKywtLi8wMTU3ODk7PD0+QUNERUZHSElKTE9QUVJTVVZXWF5gYWNkZWZpamtscHFzdHV2eHl6e3x9f4CBg4WHiIuMjZGSlJaYmZydnp+goaKjpKWnra6wsba4uru/wMHCxMXHyMnKzM3Oz9DT1NXY2drd3t/g4ePk5+jp6+zt7u/w8fL19vf5+vv8/f4iBuxyAAACVUlEQVR4Aa3Z+1eLARzH8Q+PebpkY13UaJGLtZLlEmU0JlMm93vmQjFyYUYbMgolZbmo5bJEFPM8ff9DZyd+rXOePu8/4HXO5+cP5kwbYMm3FdlXrC4vVzFDM1L/Uys2bCnnUOkWb/euIlEAnA1uhUQBtqZ6hUQBRadcLAqoOZfLopAd2MaigJ1nVRYF+808FgXzHTuLQvZdJ4uCGnayKGRF7CwK5keLWBSWPzCxKHhaaBSu1dKo7K48FoWqMI1CaBONyu9RWBQu7aFR1n6FRSG4m0YtfUGj8HQljfK30ChLQmFRiK2jUSfO0KjKThpl+j6fRaHPQaNCPhp18iKN8rXTqOrnNMoxSKOWfKNRVp1GWYQ3UKNRzjEaVf2RRjV006hAlEaFr9Co+D4WlaG5WJRLX8CiAr1gUV2tLCpPc7OoAz8yWFTvbZAoh2xkUW3DComypQ6BRLV9zSFRxalmkKiHIzkkqk784FALP/UoJCryuwwcar8cBYeqSsUUDmVLDltBoXLfTVSAQln6dA8oVGFc9oJClSZ0PyjU5tFUPRiU6bw+VgMGZX8m8WUwSJkvj3jxr8zmCbmRBWOU0pgUOYipPEPyeQdgjKp8KTJYh3TzdvWLFjTDGFUQEhk/nQkA+ccSIh1lgCFKPf5TpL0QgLWxQ5fJyFrAGOV+L/J6vVrqvTogIl9aSwBjVMkrkV/djz9oIiLJW7UmwCg1KlNpb6OH18wFYJy69ycN6QNBbwGAWVFQK49Ek5Ju6H6TQ5n1oVDsu/5mMs11Ur4Jy9YLT8Zj00l/AaMclWh+nUDqAAAAAElFTkSuQmCC) no-repeat;
+      z-index: 1;
+      top: 35px; }
+
+/*CSS style Web~Oman*/
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  header .lead {
+    color: #4e525a;
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    margin-top: 58px;
+    padding-left: 5%; }
+  header h1 {
+    color: #47433c;
+    font-family: "BebasNeue Bold";
+    font-size: 4.5em;
+    margin-top: -10px;
+    padding-left: 5%; }
+  header .text {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #4e525a;
+    margin-top: 36px;
+    font-family: "Roboto-Regular"; } }
+  @media only screen and (max-width: 992px) and (min-width: 769px) and (max-width: 800px) and (min-width: 769px) {
+    header .text {
+      font-size: 1.1em; } }
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    header .text span {
+      font-family: "Roboto-Bold"; }
+  header .desc {
+    text-align: center;
+    font-family: "Roboto-Light";
+    color: #4e525a;
+    font-size: 1.13em;
+    line-height: 1.25em;
+    margin-top: 20px;
+    position: relative; } }
+  @media only screen and (max-width: 992px) and (min-width: 769px) and (max-width: 800px) and (min-width: 769px) {
+    header .desc {
+      font-size: 1.1em; } }
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    header .desc:after {
+      content: "";
+      width: 80px;
+      height: 87px;
+      position: absolute;
+      display: inline-block;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABXCAMAAACURiMGAAACFlBMVEUAAAD///9OUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpNUVlOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUlpOUloyaN+UAAAAsXRSTlMAAAECAwQFBgcICQoMDg8QERMUFRYXGRocHR4gISMkJSYnKCkqKywtLi8wMTU3ODk7PD0+QUNERUZHSElKTE9QUVJTVVZXWF5gYWNkZWZpamtscHFzdHV2eHl6e3x9f4CBg4WHiIuMjZGSlJaYmZydnp+goaKjpKWnra6wsba4uru/wMHCxMXHyMnKzM3Oz9DT1NXY2drd3t/g4ePk5+jp6+zt7u/w8fL19vf5+vv8/f4iBuxyAAACVUlEQVR4Aa3Z+1eLARzH8Q+PebpkY13UaJGLtZLlEmU0JlMm93vmQjFyYUYbMgolZbmo5bJEFPM8ff9DZyd+rXOePu8/4HXO5+cP5kwbYMm3FdlXrC4vVzFDM1L/Uys2bCnnUOkWb/euIlEAnA1uhUQBtqZ6hUQBRadcLAqoOZfLopAd2MaigJ1nVRYF+808FgXzHTuLQvZdJ4uCGnayKGRF7CwK5keLWBSWPzCxKHhaaBSu1dKo7K48FoWqMI1CaBONyu9RWBQu7aFR1n6FRSG4m0YtfUGj8HQljfK30ChLQmFRiK2jUSfO0KjKThpl+j6fRaHPQaNCPhp18iKN8rXTqOrnNMoxSKOWfKNRVp1GWYQ3UKNRzjEaVf2RRjV006hAlEaFr9Co+D4WlaG5WJRLX8CiAr1gUV2tLCpPc7OoAz8yWFTvbZAoh2xkUW3DComypQ6BRLV9zSFRxalmkKiHIzkkqk784FALP/UoJCryuwwcar8cBYeqSsUUDmVLDltBoXLfTVSAQln6dA8oVGFc9oJClSZ0PyjU5tFUPRiU6bw+VgMGZX8m8WUwSJkvj3jxr8zmCbmRBWOU0pgUOYipPEPyeQdgjKp8KTJYh3TzdvWLFjTDGFUQEhk/nQkA+ccSIh1lgCFKPf5TpL0QgLWxQ5fJyFrAGOV+L/J6vVrqvTogIl9aSwBjVMkrkV/djz9oIiLJW7UmwCg1KlNpb6OH18wFYJy69ycN6QNBbwGAWVFQK49Ek5Ju6H6TQ5n1oVDsu/5mMs11Ur4Jy9YLT8Zj00l/AaMclWh+nUDqAAAAAElFTkSuQmCC) no-repeat;
+      z-index: 1;
+      top: 35px; } }
+
+/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  header .lead {
+    color: #4e525a;
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 0%; }
+  header h1 {
+    text-align: center;
+    color: #47433c;
+    font-family: "BebasNeue Bold";
+    font-size: 4em;
+    margin-top: 10px;
+    padding-left: 0%; }
+    header h1 img {
+      width: 80px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  header .text {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    color: #4e525a;
+    margin-top: 36px;
+    font-family: "Roboto-Regular"; }
+    header .text span {
+      font-family: "Roboto-Bold"; }
+  header .desc {
+    text-align: center;
+    font-family: "Roboto-Light";
+    color: #4e525a;
+    font-size: 1em;
+    line-height: 1.25em;
+    margin-top: 20px;
+    position: relative; }
+    header .desc:after {
+      display: none; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+  header .lead {
+    color: #4e525a;
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    margin-top: 35px;
+    text-align: center;
+    padding-left: 0%; }
+  header h1 {
+    color: #47433c;
+    text-align: center;
+    font-family: "BebasNeue Bold";
+    font-size: 2.7em;
+    margin-top: 10px;
+    padding-left: 0%; }
+    header h1 img {
+      width: 80px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  header .text {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color: #4e525a;
+    margin-top: 16px;
+    font-family: "Roboto-Regular"; }
+    header .text span {
+      font-family: "Roboto-Bold"; }
+  header .desc {
+    text-align: center;
+    font-family: "Roboto-Light";
+    color: #4e525a;
+    font-size: 1em;
+    line-height: 1.25em;
+    margin-top: 20px;
+    position: relative; }
+    header .desc:after {
+      display: none; } }
+
+/*CSS END style (max-width: 540px) and (min-width: 321px) END Web~Oman  */
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+  header {
+    background: #EBE5DB;
+    height: 536px; }
+    header .lead {
+      color: #4e525a;
+      font-family: "Roboto-Light";
+      font-size: 18px;
+      margin-top: 35px;
+      text-align: center;
+      padding-left: 0%; }
+    header h1 {
+      color: #47433c;
+      text-align: center;
+      font-family: "BebasNeue Bold";
+      font-size: 2.7em;
+      margin-top: 10px;
+      padding-left: 0%; }
+      header h1 img {
+        width: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+    header .text {
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.2em;
+      color: #4e525a;
+      margin-top: 16px;
+      font-family: "Roboto-Regular"; }
+      header .text span {
+        font-family: "Roboto-Bold"; }
+    header .desc {
+      text-align: center;
+      font-family: "Roboto-Light";
+      color: #4e525a;
+      font-size: .9em;
+      line-height: 1.25em;
+      margin-top: 20px;
+      position: relative; }
+      header .desc:after {
+        display: none; } }
+
+/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */

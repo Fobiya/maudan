@@ -1,0 +1,371 @@
+@import "bourbon";
+
+
+/*CSS FONTS Web~Oman*/
+
+$RL:'Roboto-Light';
+$RB:'Roboto-Bold';
+$RR:'Roboto-Regular';
+
+$BOLD:'BebasNeue Bold';
+$BOOK:'BebasNeue Book';
+
+
+/*CSS FONTS END Web~Oman*/
+
+
+
+
+/* независимые элименты STYLE Web~Oman --------- */
+
+
+.red_button{
+    
+     font-family: $RB;
+    font-size: 14px;
+    max-width:343px;
+    background-color: #fe4040;
+    height: 50px;
+    color: #ffffff;
+   
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: -8px 13px 29px 0.00px rgba(0, 0, 0, 0.23);
+        line-height: 51px;
+ 
+        letter-spacing: .12em;
+    
+    &:hover{
+           background-color: #40A663;
+        
+    }
+    
+   
+
+    
+}
+
+
+/* END независимые элименты STYLE Web~Oman ------ */
+
+
+
+
+/*CSS style Web~Oman*/
+
+
+
+header{
+    background: url(../images/header__lessons.png) no-repeat  top center;
+    height: 451px;
+    
+    text-align: center;
+    
+    .name{
+        font-size: 24px;
+        font-family: $RB;
+            color: #1d2126;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    }
+    
+    p{
+        font-size: 24px;
+       font-family: $RR; 
+          color: #1d2126
+    }
+    
+    h1{
+       font-family: $BOLD;  
+        color: #1d2126;
+        font-size: 80px;
+            margin-top: 40px;
+        
+            display: inline-block;
+        
+            border-bottom: 10px solid #40a663;
+        
+    }
+    
+    .text{
+        
+            font-size: 18px;
+    margin-top: 25px;
+    }
+    
+    
+    
+}
+
+
+/*CSS style Web~Oman*/
+
+
+
+
+
+
+
+
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+
+@media only screen and (max-width: 1200px) and (min-width: 993px){
+    
+
+
+
+
+
+
+}/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+
+
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+
+
+
+    
+    
+header{
+    
+    height: auto !important;
+    
+    padding-bottom: 100px;
+  
+
+    
+    text-align: center;
+    
+    .name{
+        font-size: 22px;
+        font-family: $RB;
+            color: #1d2126;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    }
+    
+    p{
+        font-size: 24px;
+       font-family: $RR; 
+          color: #1d2126
+    }
+    
+    h1{
+       font-family: $BOLD;  
+        color: #1d2126;
+        font-size: 70px;
+            margin-top: 40px;
+        
+            display: inline-block;
+        
+            border-bottom: 10px solid #40a663;
+        
+    }
+    
+    .text{
+        
+            font-size: 18px;
+    margin-top: 25px;
+    }
+    
+    
+    
+}
+
+    
+    
+
+
+
+
+
+
+}/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+
+
+
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+
+
+
+    
+        
+header{
+    
+    height: auto !important;
+    
+    padding-bottom: 50px;
+  
+
+    
+    text-align: center;
+    
+    .name{
+        font-size: 20px;
+        font-family: $RB;
+            color: #1d2126;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    }
+    
+    p{
+        font-size: 21px;
+       font-family: $RR; 
+          color: #1d2126
+    }
+    
+    h1{
+       font-family: $BOLD;  
+        color: #1d2126;
+        font-size: 60px;
+            margin-top: 40px;
+        
+            display: inline-block;
+        
+            border-bottom: 10px solid #40a663;
+        
+    }
+    
+    .text{
+        
+            font-size: 18px;
+    margin-top: 25px;
+    }
+    
+    
+    
+}
+    
+
+
+}/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+
+
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+
+
+
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+   
+header{
+
+    height: auto !important;
+    
+    padding-bottom: 50px;
+  
+
+    
+    text-align: center;
+    
+    .name{
+        font-size: 20px;
+        font-family: $RB;
+            color: #1d2126;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    }
+    
+    p{
+        font-size: 20px;
+       font-family: $RR; 
+          color: #1d2126
+    }
+    
+    h1{
+       font-family: $BOLD;  
+        color: #1d2126;
+        font-size: 50px;
+            margin-top: 40px;
+        
+            display: inline-block;
+        
+            border-bottom: 10px solid #40a663;
+        
+    }
+    
+    .text{
+        
+            font-size: 18px;
+    margin-top: 25px;
+    }
+    
+    
+    
+}
+    
+    
+
+
+
+
+
+}/*CSS END style (max-width: 540px) and (min-width: 321px) END Web~Oman  */
+
+
+
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+
+
+
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+
+header{
+
+    height: auto !important;
+    
+    padding-bottom: 35px;
+  
+
+    
+    text-align: center;
+    
+    .name{
+        font-size: 20px;
+        font-family: $RB;
+            color: #1d2126;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    }
+    
+    p{
+        font-size: 17px;
+       font-family: $RR; 
+          color: #1d2126
+    }
+    
+    h1{
+       font-family: $BOLD;  
+        color: #1d2126;
+        font-size: 40px;
+            margin-top: 35px;
+        
+            display: inline-block;
+        
+            border-bottom: 10px solid #40a663;
+        
+    }
+    
+    .text{
+        
+            font-size: 18px;
+    margin-top: 25px;
+    }
+    
+    
+    
+}
+    
+    
+
+    
+
+}/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */

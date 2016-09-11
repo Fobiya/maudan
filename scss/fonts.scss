@@ -1,0 +1,14 @@
+@import "bourbon";
+
+
+//@include font-face("PFAgoraSlabPro-Italic", "../fonts/PFAgoraSlabPro-Italic/PFAgoraSlabPro-Italic", $file-formats: eot woff ttf svg otf);
+
+
+@include font-face("Roboto-Regular", "../fonts/Roboto-Regular/Roboto-Regular", $file-formats: eot woff ttf svg otf);
+@include font-face("Roboto-Light", "../fonts/Roboto-Light/Roboto-Light", $file-formats: eot woff ttf svg otf);
+@include font-face("Roboto-Bold", "../fonts/Roboto-Bold/Roboto-Bold", $file-formats: eot woff ttf svg otf);
+
+
+@include font-face("BebasNeue Bold", "../fonts/BebasNeue Bold/BebasNeue Bold", $file-formats: eot woff ttf svg);
+@include font-face("BebasNeue Book", "../fonts/BebasNeue Book/BebasNeue Book", $file-formats: eot woff ttf svg);
+
